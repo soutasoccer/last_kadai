@@ -1,0 +1,355 @@
+.outer{
+font-family: "Sawarabi Mincho";
+}
+
+.top{
+height:80px;
+width:100%;
+}
+
+.label{
+width:100%;
+position:fixed;
+z-index:1000;
+top:0;
+background-color:black;
+height:94px;
+}
+
+.clickbox{
+float:left;
+padding:5px;
+margin:20px 20px;
+}
+
+.fa-chevron-circle-down{
+font-size:25px;
+color:white;
+}
+
+a{
+color:white;
+}
+
+a:hover{
+text-shadow:2px 2px 7px #f9e112;
+}
+
+.menu{
+float:left;
+display:none;
+width:91%;
+margin:32px 10px;
+text-align:center;
+}
+
+.menu li{
+display:inline-block;
+font-size:19px;
+margin:0 51px;
+}
+
+.white{
+color:white;
+}
+
+.at_3{
+color:red;
+}
+
+.about{
+width:100%;
+text-align:center;
+}
+
+.about h2{
+font-size:54px;
+margin:20vh 0;
+}
+
+.profile{
+display:inline-block;
+width:40%;
+}
+
+.profile h3{
+font-size:40px;
+}
+
+.myself{
+font-size:15px;
+padding-top:15px;
+}
+
+.myself h3{
+font-size:15px;
+}
+
+.myself p{
+font-size:24px;
+padding-top:10px;
+}
+
+.myself li {
+padding:10px;
+}
+
+.pic{
+display:inline-block;
+width:48vw;
+height:55vh;
+background-image:url(../image/about_me.JPG);
+background-size:cover;
+background-position:center center;
+}
+
+.center{
+padding-top:20px;
+}
+
+.carer{
+width:70%;
+margin:10vh auto;
+}
+
+.img{
+display:inline-block;
+width:30vw;
+height:27vh;
+background-image:url(../image/school.jpeg);
+background-size:cover;
+background-position:center center;
+}
+
+.text-box{
+display:inline-block;
+width:32%;
+margin:0 68px;
+text-align:center;
+}
+
+.text-box h3{
+font-size:22px;
+border-bottom:3px solid red;
+}
+
+.text-box p{
+font-size:21px;
+margin:23px 0;
+border-bottom:3px solid red;
+}
+
+.likes{
+width:80%;
+margin:0 auto;
+}
+
+.content{
+margin-bottom:16px;
+}
+
+.content img{
+width:22vw;
+height:21vh;
+margin:0 10px;
+}
+
+.content img:hover{
+box-shadow:2px 2px 4px 3px #aaa;
+}
+
+.likes h3{
+text-align:center;
+font-size:45px;
+margin:18vh 0;
+}
+
+.content-box{
+display:inline-block;
+width:30%;
+font-size:10px;
+}
+
+.content-box p{
+color:black;
+margin:10px 0;
+font-size:16px;
+}
+
+.bottom{
+width:100%;
+background-color:black;
+height:50vh;
+margin-top:27vh;
+}
+
+.bottom-box{
+position:relative;
+}
+
+.bottom-left{
+width:40%;
+position:absolute;
+top:13vh;
+left:3vw;
+z-index:1;
+color:white;
+}
+
+.bottom-tytle-box{
+width:100%;
+text-align:center;
+}
+
+.bottom-tytle-box h3{
+font-size:45px;
+}
+
+.conect{
+display:table;
+width:100%;
+font-size:6vh;
+padding-top:7vh;
+padding-left:7vw;
+}
+
+.icon{
+display:table-cell;
+}
+
+.word{
+width:40%;
+margin-left:30px;
+position:absolute;
+top:10vh;
+right:14vw;
+z-index:1;
+}
+
+.last{
+text-align:center;
+}
+
+.last li{
+margin:21px 20px;
+font-size:28px;
+color:white;
+}
+
+@media(max-width:590px){
+.label{
+height:unset;
+}
+
+.clickbox{
+float:none;
+}
+
+.menu{
+float:none;
+}
+
+.menu li{
+display:block;
+margin:2vh 0;
+}
+
+.about h2{
+margin:10vh 0;
+}
+
+.plofile{
+display:block;
+width:100%;
+}
+
+.pic{
+display:block;
+width:100%;
+height:36vh;
+}
+
+.carer{
+width:100%;
+}
+
+.img{
+display:block;
+width:100%;
+}
+
+.text-box{
+display:block;
+width:100%;
+margin:2vh 0;
+}
+
+.likes{
+width:100%;
+}
+
+.likes h3{
+margin:13vh 0;
+}
+
+.content-box{
+display:block;
+width:100%;
+}
+
+.content-box img{
+width:100%;
+margin:0;
+}
+
+.content-box p{
+text-align:center;
+}
+
+.bottom{
+height:79vh;
+}
+
+.bottom-left{
+width:100%;
+}
+
+.conect{
+padding-left:12vw;
+}
+
+.word{
+width:100%;
+top:36vh;
+right:0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

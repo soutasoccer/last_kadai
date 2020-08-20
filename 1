@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+  <script>
+　$(function(){
+  
+  console.log('ミズコシ');
+  
+  $('.at_1').on('click',function(){
+   $('.at_2').fadeIn(1000); 
+  });
+
+  $('.at_3').on('click',function(){
+   $('.at_2').fadeOut(1000); 
+  });
+
+   $(window).scroll(function(){
+    console.log($(this).scrollTop());
+     if($(this).scrollTop() > 100){
+      $('.pra1').fadeIn(1000);
+     }
+
+     if($(this).scrollTop() > 170){
+      $('.pra3').fadeIn(1000);
+     }
+   
+     if($(this).scrollTop() > 400){
+      $('.pra4').fadeIn(1000);
+     }
+
+     if($(this).scrollTop() > 500){
+      $('.pra2').fadeIn(1000);
+     }
+
+   });
+
+
+  });
+  </script>
+ </head>
+ <body>
+ <div class="outer">
+ <div class="top">
+  <div class="label">
+   <div class="clickbox at_1">
+  <i class="fas fa-chevron-circle-down"></i>
+  </div>
+   <ul class="menu cf  at_2">
+    <li>about me</li>
+    <li>photo</li>
+    <li>soccer</li>
+    <li>works</li>
+    <li class="at_3">close</li>
+   </ul>
+  </div>
+ </div>
+  <div class="center">
+   <div class="tytlebox">
+    <h2 class="tytle">Welcome my page!</h2>
+   </div>
+    <div class="main">
+     <div class="left">
+       <div class="pic1">
+        <p class="pra1">about me</p>
+       </div>
+       <div class="pic2">
+        <p class="pra2">soccer</p>
+       </div>
+     </div>
+     <div class="right">
+       <div class="pic3">
+        <p class="pra3">photo</p>
+       </div>
+       <div class="pic4">
+        <p class="pra4">works</p>
+       </div>
+     </div>
+   </div>
+  </div>
+ <div class="bottom">
+  <div class="bottom-box">
+  <div class="content">
+   <div class="bottom-tytle-box">
+    <h3 class="bottom-tytle">SNS</h3>
+   </div>
+   <div class="conect">
+    <div class="insta">
+    <i class="fab fa-instagram"></i>
+    </div>
+    <div class="twitter">
+    <i class="fab fa-twitter"></i>
+    </div>
+    <div class="face">
+    <i class="fab fa-facebook-square"></i>
+    </div>
+   </div>
+  </div>
+  <div class="word">
+   <ul class="last">
+    <li>自己紹介</li>
+    <li>写真</li>
+    <li>サッカー</li>
+    <li>仕事</li>
+   </ul>
+  </div>
+  </div>
+ </div>
+ </div>
+ </body>
+</html>

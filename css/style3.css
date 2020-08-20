@@ -1,0 +1,335 @@
+.outer{
+font-family: "Sawarabi Mincho";
+}
+
+.top{
+height:80px;
+width:100%;
+}
+
+.label{
+width:100%;
+position:fixed;
+z-index:1000;
+top:0;
+background-color:black;
+height:94px;
+}
+
+.clickbox{
+float:left;
+padding:5px;
+margin:20px 20px;
+}
+
+.fa-chevron-circle-down{
+font-size:25px;
+color:white;
+}
+
+.menu{
+float:left;
+width:91%;
+margin:32px 10px;
+text-align:center;
+display:none;
+}
+
+.menu li{
+display:inline-block;
+font-size:19px;
+margin:0 51px;
+}
+
+a{
+color:white;
+}
+
+.white{
+color:white;
+}
+
+.at_3{
+color:red;
+}
+
+.center{
+width:100%;
+}
+
+.tytlebox h2{
+font-size:54px;
+margin:20vh 0;
+text-align:center;
+}
+
+.center-label{
+position:relative;
+width:100%;
+margin:0 auto;
+}
+
+.center-label h3{
+font-size:50px;
+text-align:left;
+margin:2vh 11vw;
+}
+
+.center-label p{
+position:absolute;
+top:29vh;
+left:10vw;
+z-index:2;
+font-size:32px;
+}
+
+.camera{
+width:71vw;
+height:59vh;
+background-image:url(../image/canon.jpg);
+background-size:cover;
+background-position:center center;
+margin-left:26vw;
+}
+
+.sub-box{
+padding:11vw;
+}
+
+
+.sub-box h3{
+font-size:50px;
+}
+
+.sub-box p{
+font-size:32px;
+padding:34px;
+}
+
+.center-second{
+width:90%;
+margin:0 auto;
+}
+
+.center-second h3{
+font-size:50px;
+padding:68px;
+}
+
+.pics{
+display:inline-block;
+}
+
+.pics img{
+width:58vw;
+}
+
+.content p{
+display:inline-block;
+margin-left:5vw;
+font-size:17px;
+}
+
+.content-two p{
+display:inline-block;
+margin-right:3vw;
+font-size:17px;
+}
+
+.content-two{
+margin:10vh 0;
+}
+
+.pics img:hover{
+box-shadow:2px 2px 4px 3px #aaa;
+}
+
+.bottom{
+width:100%;
+background-color:black;
+height:50vh;
+margin-top:33vh;
+}
+
+.bottombox{
+position:relative;
+}
+
+.bottom-left{
+position:absolute;
+width:40%;
+top:13vh;
+left:3vw;
+z-index:1;
+color:white;
+}
+
+.bottom-tytle-box{
+width:100%;
+text-align:center;
+font-size:45px;
+}
+
+.conect{
+display:table;
+width:100%;
+font-size:6vh;
+padding-top:7vh;
+padding-left:7vw;
+}
+
+.icon{
+display:table-cell;
+}
+
+.word{
+width:40%;
+margin-left:30px;
+position:absolute;
+top:10vh;
+right:14vw;
+z-index:1;
+}
+
+.last{
+text-align:center;
+}
+
+.last li{
+margin:21px 20px;
+font-size:28px;
+color:white;
+}
+
+a:hover{
+text-shadow:2px 2px 7px #f9e112;
+}
+
+
+@media(max-width:590px){
+.label{
+height:unset;
+}
+
+.clickbox{
+float:none;
+}
+
+.menu{
+float:none;
+}
+
+.menu li{
+display:block;
+margin:2vh 0;
+}
+
+.tytlebox h2{
+margin:10vh 0;
+}
+
+.center-label h3{
+text-align:center;
+}
+
+.center-label p{
+top:38vh;
+left:0;
+font-size:24px;
+}
+
+.camera{
+margin:0;
+width:100%;
+height:33vh;
+}
+
+.sub-box{
+text-align:center;
+}
+
+.center-second{
+width:100%;
+}
+
+.pics{
+display:block;
+}
+
+.pics img{
+width:100%;
+}
+
+.content{
+text-align:left;
+}
+
+.content-two{
+text-align:right;
+}
+
+.bottom{
+height:79vh;
+}
+
+.bottom-left{
+width:100%;
+}
+
+.conect{
+padding-left:12vw;
+}
+
+.word{
+width:100%;
+top:36vh;
+right:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
